@@ -1,0 +1,74 @@
+/* Global Styling */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #dbeafe, #f0f9ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Box */
+.container {
+  background-color: white;
+  width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+h1 {
+  color: #1d4ed8;
+  margin-bottom: 20px;
+}
+
+/* Text Input */
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+  transition: border 0.2s;
+}
+
+textarea:focus {
+  border-color: #3b82f6;
+}
+
+/* Button */
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Result Box */
+#result {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f172a;
+}
